@@ -16,6 +16,8 @@ const List = styled.ul`
     height:68px;
     display:flex;
     justify-content:space-between;
+    background:mintcream
+
 `;
 const Item = styled.li`
     margin-right: 30px;
@@ -24,6 +26,7 @@ const Item = styled.li`
 `;
 const SLink = styled(Link)`
     text-decoration:none;
+    color:pink;
 `;
 
 
@@ -32,7 +35,7 @@ export default withRouter(({ location: { pathname } }) => (
     <Header>
         <List>
             <Item>
-                <SLink to="/">This movies are Moving:)</SLink>
+                <SLink to="/">The movie is Moving:)</SLink>
             </Item>
             <Item current={pathname === "/"}>
                 <SLink to="/">Movies</SLink>

@@ -111,7 +111,13 @@ url에 따라 달라져야 되는 컴포넌트로 감싸 주면 된다.
 # 오류모음 
 ×
 Error: Component(...): Nothing was returned from render. This usually means a return statement is missing. Or, to render nothing, return null.
-즉 App에 있는 컴포넌트가 값이 undfined였음. 그래서 뜸. 
+즉 App에 있는 컴포넌트가 값이 undfined였음. 그래서 뜸.  
+
+# API 불러오기 (네트워킹 파트)
+add yarn axios로  다운로드후 작업
+1. api.js 파일 만들기 
+2. api에서 가져올 것들 리스트업. 
+3. https://github.com/axios/axios 에서 소스 확인.
 
 
 
