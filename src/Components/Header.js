@@ -3,30 +3,21 @@ import styled from "styled-components";
 import { Link, withRouter } from "react-router-dom";
 
 const Header = styled.header`
-    color:white;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:50px;
-    display:flex; 
+    background:#6155a6;
+    border: 5px dotted #ffabe1;
+    padding:20px;
 `;
 
 const List = styled.ul`
-    height:68px;
     display:flex;
     justify-content:space-between;
-    background:mintcream;
 `;
 const Item = styled.li`
-    margin-right: 30px;
-     
-    
 `;
 
 const SLink = styled(Link)`
-    text-decoration:none;
-    color:pink;
+    color:#ffe6e6;
+
 `;
 
 
