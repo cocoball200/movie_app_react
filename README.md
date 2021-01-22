@@ -119,7 +119,26 @@ add yarn axios로  다운로드후 작업
 2. api에서 가져올 것들 리스트업. 
 3. https://github.com/axios/axios 에서 소스 확인.
 
+# Movie에 구성할 데이터 목록.
+https://developers.themoviedb.org/3/movies
+1. Get Upcomming  => upComing
+2. Get Top Rated => topRated
+3. Get Now Playing = > nowPlaying 
 
+4. Get Reviews =>  reviews 
+5. Get Details => details
+
+6. Get search => search
+
+# TV에 구성할 데이터 목록.
+1. Get TV Airing Today => tvAiringToday
+2. Get Top Rated => topRated
+3. Get TV On The Air => tvOnTheAir
+
+4. Get Reviews => reviews
+5. Get Details => details
+
+6. Get search => search
 
 
 
