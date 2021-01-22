@@ -10,25 +10,24 @@ const Header = styled.header`
     width:100%;
     height:50px;
     display:flex; 
-    `;
+`;
 
 const List = styled.ul`
     height:68px;
     display:flex;
     justify-content:space-between;
-    background:mintcream
-
+    background:mintcream;
 `;
 const Item = styled.li`
     margin-right: 30px;
      
     
 `;
+
 const SLink = styled(Link)`
     text-decoration:none;
     color:pink;
 `;
-
 
 
 export default withRouter(({ location: { pathname } }) => (

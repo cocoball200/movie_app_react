@@ -141,4 +141,8 @@ https://developers.themoviedb.org/3/movies
 6. Get search => search
 
 
+# Containers 구성.
+Container은 데이터를 담당하는 부분.
+
+
 
