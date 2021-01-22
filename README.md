@@ -143,6 +143,7 @@ https://developers.themoviedb.org/3/movies
 
 # Containers 구성.
 Container은 데이터를 담당하는 부분.
+각각의 컴포넌트들의 프레젠턴, 컨테이너, 인덱스를 만들어준다.
 
 
 
