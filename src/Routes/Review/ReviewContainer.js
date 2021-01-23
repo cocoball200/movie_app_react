@@ -1,5 +1,5 @@
 import React from "react";
-import DetailPresenter from "./DetailPresenter";
+import ReviewPresenter from "./ReviewPresenter";
 
 export default class extends React.Component {
     state = {
@@ -7,10 +7,9 @@ export default class extends React.Component {
         error: null,
         loading: true
     };
-
     render() {
-        const { result, error, loading } = this.state;
-        return (<DetailPresenter
+        const { result, error, loading } = this.state
+        return (<ReviewPresenter
             result={result}
             error={error}
             loading={loading}

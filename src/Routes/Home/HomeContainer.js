@@ -1,5 +1,6 @@
 import React from "react";
 import HomePresenter from "./HomePresenter";
+import { movieApi } from "api";
 
 export default class extends React.Component {
     state = {
@@ -9,6 +10,23 @@ export default class extends React.Component {
         error: null,
         loading: true
     };
+
+    async componentDidMount() {
+        try {
+            console.log("a");
+            const data = await movieApi.topRated();
+            console.log(data);
+        } catch {
+            this.setState({
+                error: "곧 나올 영화가 아닙니다."
+            })
+
+        } finally {
+            this.setState({
+                loading: false
+            });
+        }
+    }
     render() { //렌더를 통해서 컴포넌트들을 재귀적으로 렌더링하면서, 렌더링이 끝나면, 지니고 있는 정보를 사용하여 HTML 마크업 만들고, 실제 페이지의 Dom 요소에 주입
         const { upcomming, topRated, nowPlaying, error, loading } = this.state;
         return (
